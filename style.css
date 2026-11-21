@@ -23,7 +23,7 @@
   --cream:        #FAF6EE;
   --gold-bright:  #D4AF37;
 
-  --font-display: 'Alex Brush', cursive;
+  --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
   --font-eyebrow: 'Cinzel', serif;
   --font-body:    'Lora', serif;
   --font-sub:     'Cormorant Garamond', serif;
@@ -129,11 +129,12 @@ body {
 
 .splash-name {
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 10vw, 4.2rem);
-  font-weight: 400;
-  color: #1A1614;
-  line-height: 1.1;
-  text-shadow: 0 2px 18px rgba(184, 134, 11, 0.16);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2rem, 5vw, 2.6rem);
+  color: #1C1816;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .splash-amp {
@@ -344,10 +345,12 @@ body {
 
 .name-text {
   font-family: var(--font-display);
-  font-weight: 400;
-  font-size: clamp(3.8rem, 11vw, 6.8rem);
-  line-height: 1.05;
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(3.2rem, 9vw, 5.2rem);
+  line-height: 1.1;
   color: #1A1614;
+  letter-spacing: 0.02em;
   text-shadow: 0 2px 24px rgba(184, 134, 11, 0.18);
 }
 
@@ -657,11 +660,14 @@ body {
 
 .family-name {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 6vw, 4.2rem);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
   color: #1A1614;
   margin-bottom: 14px;
-  line-height: 1.1;
-  text-shadow: 0 2px 14px rgba(184, 134, 11, 0.12);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 14px rgba(184, 134, 11, 0.15);
 }
 
 .family-relation-label {
@@ -1564,10 +1570,12 @@ body {
 
 .thankyou-names {
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 7vw, 4.4rem);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
   color: #1A1614;
   text-shadow: 0 2px 18px rgba(184, 134, 11, 0.18);
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 /* ==========================================================================
